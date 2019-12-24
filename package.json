@@ -1,11 +1,22 @@
 {
     "name": "configuration",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "configuration",
-    "main": "webpack.config.js",
-    "author": {
-        "name": "Alexey Medvedev"
+    "keywords": [
+        "config",
+        "configuration"
+    ],
+    "author": "Alexey Medvedev <imyevolove@gmail.com>",
+    "homepage": "https://github.com/imyevolove/configuration",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:imyevolove/configurations.git"
     },
+    "bugs": {
+        "url": "https://github.com/imyevolove/configuration/issues"
+    },
+    "license": "MIT",
+    "main": "webpack.config.js",
     "scripts": {
         "build": "webpack --mode production"
     },
